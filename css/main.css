@@ -1001,6 +1001,7 @@ body.modal-open {
 }
 
 .hero-backdrop-input:hover, .hero-backdrop-input:focus {
+  cursor: pointer;
   border-color: var(--accent-color);
 }
 
@@ -1035,7 +1036,6 @@ body.modal-open {
 
 .hero-backdrop-comment::placeholder {
   font-size: 14px;
-  line-height: 1.142px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -1098,5 +1098,9 @@ body.modal-open {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.hero-backdrop-btn:hover, .hero-backdrop-btn:focus {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

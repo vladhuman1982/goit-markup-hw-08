@@ -423,6 +423,7 @@ body.modal-open {
 
 .projects-img {
   display: block;
+  width: 100%;
   margin-bottom: 20px;
 }
 
