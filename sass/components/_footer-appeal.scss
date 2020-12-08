@@ -1,0 +1,15 @@
+.footer-appeal {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: var(--bg-color-footer);
+}
+@media screen and (min-width: 1200px) {
+  .footer-appeal {
+    text-align: left;
+  }
+}

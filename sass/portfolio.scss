@@ -1,0 +1,15 @@
+// UTILS
+@import "./utils/variables";
+
+// BASE
+@import "./base/base";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/footer-appeal";
+
+// LAYOUT PAGE PORTFOLIO
+@import "./layout/header";
+@import "./layout/filters";
+@import "./layout/projects";
+@import "./layout/footer";

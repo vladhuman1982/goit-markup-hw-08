@@ -1,0 +1,33 @@
+@media screen and (max-width: 1199px) {
+  .doing {
+    display: none;
+
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .doing {
+    width: 100%;
+
+    padding-bottom: 94px;
+
+    &-flex {
+      display: flex;
+    }
+    &-title {
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+
+      color: var(--color-title);
+    }
+    &-item:not(:last-child) {
+      margin-right: 30px;
+    }
+    &-img {
+      display: block;
+    }
+  }
+}
